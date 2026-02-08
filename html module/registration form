@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+            <legend><h1>extracurriculur registration form</h1></legend>
+            <label>full name</label><br>
+            <input type="text" id="name"><br><br>
+            <label>parent's name</label><br>
+            <input type="text" id="parent's name"><br><br>
+            <label>contact number</label>
+            <input type="number" id="contact number"><br><br>
+            <label>email id</label>
+            <input  type="email" id="email"><br><br>
+            <label>password</label>
+            <input type="password" id="password"><br><br>
+            <label>gender</label>
+            <input type="radio" id="female" name="gender" value="female">female
+            <input type="radio" id="male" name="gender" value="male">male<br><br>
+            <label>select all the activities you would like to follow</label>
+            <input type="checkbox" id="extracurriculur" value="football">football
+            <input type="checkbox" id="extracurriculur" value="arts club">arts club<br>
+            <input type="checkbox" id="extracurriculur" value="basketball">basketball
+            <input type="checkbox" id="extracurriculur" value="music">music<br>
+            <input type="checkbox" id="extracurriculur" value="mental maths">mental maths
+            <input type="checkbox" id="extracurriculur" valur="digital designing">digital designing<br>
+            <input type="checkbox" id="extracurriculur" value="swimming">swimming
+            <input type="checkbox" id="extracurriculur" value="game programming club">game programming club<br>
+            <input type="checkbox" id="extracurriculur" value="french language">french language
+            <input type="checkbox" id="extracurriculur" value="martial arts">martial arts<br><br>
+            <button>submit</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
+        
