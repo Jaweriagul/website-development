@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>box model</title>
+        <style>
+            #box{
+                width: 250px;
+                height: 150px;
+                background-color:hotpink;
+                color:aquamarine;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                font-size: 30px;
+                border: 5px solid skyblue;
+                margin: 50px;
+                border-radius: 30px;
+                box-shadow: 5px 5px 15px purple;
+                padding-top: 65px;
+                text-align: center;
+                transition: transform 0.3s ease;
+            }
+            #box:hover{
+                background-color:deeppink;
+                color: blueviolet;
+                transform: scale(1.08);
+            }
+            #left{
+                border: 3px solid yellow;
+                border-radius: 50px;
+                float: left;
+            }
+            #right{
+                border: 3px solid blueviolet;
+                border-radius: 50px;
+                float: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="box">
+            login
+        </div>
+        <div id="demo">
+            <img src="https://pngimg.com/d/star_PNG76907.png" alt="stars" height="200" width="300" id="left">
+            <img src="https://c.tadst.com/gfx/900x506/rainbow.jpg?1" alt="rainbow" height="200" width="300" id="right">
+        </div>
+    </body>
+</html>
