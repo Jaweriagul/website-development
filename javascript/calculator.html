@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>calculator</title>
+    </head>
+    <body>
+        <fieldset style="width: 120px;">
+            <legend style="color: rgb(152, 70, 152);"><h1>calculator operations</h1></legend>
+        <p id="result"></p>
+        <script>
+            var num1=12;
+            var num2=3;
+            var sum=num1+num2;
+            var difference=num1-num2;
+            var product=num1*num2;
+            var quotient=num1/num2;
+            var remainder=num1%num2;
+            document.getElementById("result").innerHTML="the sum is:" + "<b>" + sum + "</b><br>" + 
+            "the difference is:" + "<b>" + difference + "</b><br>" +
+            "the product is:" + "<b>" + product + "</b><br>" +
+            "the quotient is:" + "<b>" + quotient + "</b><br>" +
+            "the remainder is:" + "<b>" + remainder + "</b>";
+        </script>
+        </fieldset>
+    </body>
+</html>
