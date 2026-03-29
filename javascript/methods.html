@@ -6,8 +6,20 @@
         <h2>JavaScript string methods</h2>
         <p>methods</p>
         <script>
-            var str=AmaZiNg;
-            document.wriy
+            var str="AmaZiNg";
+            document.write(str.toUpperCase());
+            document.write("<br>");
+            document.write(str.toLowerCase());
+            document.write("<br>");
+            document.write(str.startsWith('i'));
+            document.write("<br>");
+
+            // Test Method -> returns true or false
+            var str1 = "I learnt about Methods";
+            var patt = new RegExp("about");
+            var res = patt.test(str);
+            document.write(res);
         </script>
     </body>
 </html>
+       
