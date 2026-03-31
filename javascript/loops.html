@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>loops in js</title>
+    </head>
+<body>
+<h2>Loops in JavaScript</h2>
+<p id="demo"></p>
+<script>
+    var food = ["pizza","burger","sushi",
+    "pasta","salad"];
+    var text = "";
+    var i;
+    for (i = 0; i < food.length; i++) {
+    text += food[i] + "<br>";
+    }
+    document.getElementById("demo").innerHTML = text;
+</script>
+</body>
+</html>
