@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>pop method</title>
+    </head>
+    <body>
+        <h2>pop method</h2>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <script>
+            var princesses=["belle",
+                            "ariel",
+                            "repunzel",
+                            "moana",
+                            "snow white",
+            ]
+            document.getElementById("demo").innerHTML= princesses.join(" * ");
+            document.getElementById("demo1").innerHTML= princesses;
+            princesses.pop();
+            document.getElementById("demo2").innerHTML= princesses;
+        </script>
+    </body>
+</html>
