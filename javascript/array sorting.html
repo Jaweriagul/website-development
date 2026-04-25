@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>array sorting</title>
+    </head>
+    <body>
+        <h2>array sorting</h2>
+        <p>click the button to sort the array</p>
+        <button onclick="ascending()">ascending order</button>
+        <button onclick="descending()">descending order</button>
+        <p id="result"></p>
+        <script>
+          var number = [10,50,30,5,15,25];
+
+          document.getElementById("result").innerHTML= number;
+
+          function ascending(){
+            number.sort(function(a,b){
+                return(a-b)
+            })
+            document.getElementById("result").innerHTML= number;
+          }
+          function descending(){
+            number.sort(function(a,b){
+                return(b-a)
+            })
+            document.getElementById("result").innerHTML= number;
+          }
+        </script>
+    </body>
+</html>
