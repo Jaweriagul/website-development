@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>async and await</title>
+    </head>
+    <body>
+        <h2>async and await</h2>
+        <p id="demo"></p>
+        <script>
+            //async and await are used to handle promises
+            async function add(a,b,c){
+                let response = await(a+b+c);
+                display (response);
+            }
+            function display(sum){
+                document.getElementById("demo").innerHTML = sum;
+            }
+            add(43, 24, 33);
+        </script>
+    </body>
+</html>
