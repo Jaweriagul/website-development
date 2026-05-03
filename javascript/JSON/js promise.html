@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>js promise</title>
+    </head>
+    <body>
+        <h2>js promise</h2>
+        <p id="demo"></p>
+        <script>
+            function mydisplayer(some) {
+                document.getElementById("demo").innerHTML = some;
+            }
+            function sum(a,b){
+               var sum = a + b;
+               mydisplayer(sum);
+            }
+            let mypromise = new Promise(function(myresolve,myreject){
+                let x=0;//some code (try to change x to 5)
+                if(x==0){
+                    myresolve("ok"); // if successfuk
+                }
+                else{
+                    myreject("error"); // if error
+                }
+            });
+            //consuming code-must wait fro the promise
+            mypromise.then(
+                function(value){sum(5,5);},//code is successful
+                function(error){sum(error);},//code has an error
+            )
+        </script>
+    </body>
+</html>
