@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>validation API</title>
+    </head>
+    <body>
+        <p>enter a number and click submit</p>
+        <input id="id" type="number" min="150" max="700" required>
+        <button onclick="myFunction()">Submit</button>
+        <p id="result"></p>
+        <script>
+        function myFunction() {
+            var x = document.getElementById("id");
+            if(!x.checkValidity()){
+                document.getElementById("result").innerHTML = x.validationMessage;
+            }
+            else{
+                document.getElementById("result").innerHTML = "input is valid, click submit";
+            }
+        }
+        </script>
+    </body>
+</html>
