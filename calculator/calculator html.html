@@ -4,35 +4,34 @@
         <link rel="stylesheet" href="calculator css.css" >
     </head>
     <body>
-        <h2>CALCULATOR</h2>
         <div class="calc">
             <div class="title">Calculator</div>
             <div class="grid">
                 <input id="result" type="text" placeholder="input here" readonly>
-                <button class="btn op" onclick="setscreenvalue('c')">C</button>
+                <button class="btn btn-op" onclick="setscreenvalue('c')">C</button>
                 <button class="btn" onclick="setscreenvalue('AC')">AC</button>
                 <button class="btn" onclick="setscreenvalue('()')">()</button>
                 <button class="btn" onclick="setscreenvalue('%')">%</button>
-                <button class="btn op" onclick="setscreenvalue('/')">/</button>
+                <button class="btn btn-op" onclick="setscreenvalue('/')">/</button>
                 <button class="btn" onclick="setscreenvalue('7')">7</button>
                 <button class="btn" onclick="setscreenvalue('8')">8</button>
                 <button class="btn" onclick="setscreenvalue('9')">9</button>
-                <button class="btn op" onclick="setscreenvalue('*')">x</button>
+                <button class="btn btn-op" onclick="setscreenvalue('*')">x</button>
                 <button class="btn" onclick="setscreenvalue('4')">4</button>
                 <button class="btn" onclick="setscreenvalue('5')">5</button>
                 <button class="btn" onclick="setscreenvalue('6')">6</button>
-                <button class="btn op" onclick="setscreenvalue('-')">-</button>
+                <button class="btn btn-op" onclick="setscreenvalue('-')">-</button>
                 <button class="btn" onclick="setscreenvalue('1')">1</button>
                 <button class="btn" onclick="setscreenvalue('2')">2</button>
                 <button class="btn" onclick="setscreenvalue('3')">3</button>
-                <button class="btn op" onclick="setscreenvalue('+')">+</button>
+                <button class="btn btn-op" onclick="setscreenvalue('+')">+</button>
                 <button class="btn" onclick="setscreenvalue('+/-')">+/-</button>
                 <button class="btn" onclick="setscreenvalue('0')">0</button>
                 <button class="btn" onclick="setscreenvalue('.')">.</button>
-                <button class="btn op" onclick="setscreenvalue('=')">=</button>
+                <button class="btn btn-op" onclick="setscreenvalue('=')">=</button>
             </div>
             <div class="clear" onclick="clearscreen()">CLEAR</div>
         </div>
-        <script src=""></script>
+        <script src="calculator js.js"></script>
     </body>
 </html>
