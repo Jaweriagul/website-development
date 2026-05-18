@@ -1,0 +1,31 @@
+body{
+    background-color:lemonchiffon;
+    font-family:fantasy;
+}
+.about{
+    background-color: brown;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.m-heading{
+    font-size:2.5rem;
+    font-weight:700;
+    margin:20px 0px;
+}
+.btn-outline-success{
+    border-weight: 2px;
+    font-weight:600;
+    padding: 10px 30px;
+    transition: all 0.3s ease;
+}
+.btn-outline-success:hover{
+    background-color: green;
+    transform: scale(1.05);
+}
+#image{
+    max-width:550px;
+    height:600px;
+}
