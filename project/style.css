@@ -1,0 +1,28 @@
+#social-media{
+    background-color: darkslateblue;
+}
+.m-heading{
+    font-weight: 700;
+    margin-top: 6px;
+}
+.media_link{
+    border:2px solid black;
+    border-radius: 4px;
+    padding:14px 18px;
+    margin-right: 18px;
+    background:transparent;
+    text-align: left;
+}
+.row.pt-5{
+    gap:18px;
+}
+.media_link h3{
+    font-size:18px;
+    font-weight: 700;
+}
+.media_link i{
+    font-size:22px;
+}
+.media_link.bg-secondary{
+    border:2px solid black;
+}
