@@ -53,3 +53,11 @@ body{
 .operator{
     background-color: lightseagreen;
 }
+#history{
+    text-align:right;
+    height: 20px;
+    margin:0 20px;
+    padding-top:20px;
+    font-size: 15px;
+    color:steelblue;
+}
