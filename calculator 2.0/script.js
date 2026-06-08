@@ -19,7 +19,7 @@ function getformattednumber(num){
     if(num=="-"){
         return "";
     }
-        var n=number(num);
+        var n=Number(num);
         var value=n.toLocaleString("en");
         return value;
 }
