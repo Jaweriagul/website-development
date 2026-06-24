@@ -5,7 +5,7 @@ def factorial(n):
        return n*factorial(n-1)
 num = int(input("Enter a number"))
 if num<0:
-   print("sorry, the factorial of negative terms does not exist")
+   print("sorry, the factorial of negative numbers does not exist")
 elif num==0:
    print("the factorial of 0 is 1")
 else:
