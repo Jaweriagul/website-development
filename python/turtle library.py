@@ -21,15 +21,14 @@ board.begin_fill()
 for i in range(5):
     board.forward(130)
     board.right(144)
-board.end_fill
+board.end_fill()
 board.penup()
 board.goto(0,0)
 board.pendown()
-petal_colors=["lemonchiffon","skyblue","baby pink","violet","light green"]
+petal_colors=["lemonchiffon","skyblue","pink","violet","lightgreen"]
 
 for i in range(36):
-    board.color(petal_colors[i % len(petal_colors)])
-    petal_colors[(i+2) % len(petal_colors)]
+    board.color(petal_colors[i % len(petal_colors)],petal_colors[(i+2) % len(petal_colors)])
 board.begin_fill()
 
 for j in range(4):    
@@ -38,4 +37,4 @@ for j in range(4):
 board.end_fill()
 board.right(10)
 
-turtle.done()    
+turtle.done()   
