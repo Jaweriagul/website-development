@@ -8,8 +8,8 @@ class parrot:
 blu = parrot("blu",10)
 woo = parrot("woo",15)
 
-print("blu is a{}".format(blu.specie))
-print("woo is also a{}".format(woo.specie))
+print("blu is a {}".format(blu.specie))
+print("woo is also a {}".format(woo.specie))
 
 print("{} is {} years old".format(blu.name,blu.age))
 print("{} is {} years old".format(woo.name,woo.age))
