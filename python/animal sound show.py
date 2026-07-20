@@ -40,7 +40,7 @@ Parrot = parrot("titu","jungle","squawk")
 Lion = lion("mufassa","savannah","pride rock")  
 
 print("=== animal sound show ===/n")
-for animal in [dog , parrot, lion]:
+for animal in [Dog, Parrot, Lion]:
     animal.display()
     animal.speak()
     print()
