@@ -1,0 +1,28 @@
+file = open("bucket-list","w")
+file.write("1: Watch kdramas and movies.\n")
+file.write("2: Ace the result.\n")
+file.write("3: Learn a new skill.\n")
+file.close()
+print("A bucket list has created.")
+
+file = open("bucket-list","r")
+content = file.read()
+print("My Bucket List")
+print(content)
+file.close()
+
+file = open("bucket-list","r")
+lines = file.readlines()
+print(f"This is my {len(lines)} points bucket list.")
+file.close()
+
+file = open("bucket-list","a")
+file.write("4: Go on a tour.\n")
+file.write("5: Learn business.\n")
+print("New items have been uploaded.")
+file.close()
+
+file = open("bucket-list","r")
+print("Updated bucket list.")
+print(file.read())
+file.close()
